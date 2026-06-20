@@ -1,0 +1,19 @@
+.grad-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card{
+    background-color: lightgray;
+    border:  solid #000;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .grad-projetos{
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr 1fr );
+        gap: 1.5rem;
+    }
+}
